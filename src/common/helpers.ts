@@ -23,4 +23,14 @@ export async function extractFileLines(filepath: string, dirname: string): Promi
 	return fileLines;
 }
 
+/** Adds 2 numbers together (For use in a "reduce"). */
+export function add(a: number, b: number) {
+	return a + b;
+}
+
+/** Calculates the sum of a list of numbers. */
+export function sumOf(numbers: number[]) {
+	return numbers.reduce(add);
+}
+
 
