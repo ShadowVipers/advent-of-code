@@ -1,0 +1,5 @@
+/node_modules
+/.idea
+/src/2023/template
+/**/example-input.txt
+/**/test-input.txt
